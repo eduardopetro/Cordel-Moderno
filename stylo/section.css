@@ -1,0 +1,173 @@
+.paragrafo01 {
+    font-family: var(--fonte3);
+    font-size: 53px;
+    width: 594px;
+    margin: 0.5em;
+    line-height: 2em;
+
+
+}
+
+.img01 {
+    background-image: url('../img/background001.jpg');
+    background-position: center center;
+    height: 950px;
+    margin-bottom: 2em;
+    background-attachment: fixed;
+}
+
+.fundo {
+    background: var(--cor-primaria);
+    width: 44%;
+    height: 800px;
+    position: relative;
+    left: 30px;
+    top: 90px;
+
+}
+
+.paragrafo-02 {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte3);
+    font-size: 53px;
+    padding: 1em 1em 0px 0.5em;
+    line-height: 2em;
+    width: 650px;
+
+
+}
+
+.paragrafo-03 {
+
+    color: var(--cor-primaria);
+    font-family: var(--fonte3);
+    font-size: 53px;
+    padding: 1em 1em 0px 0.5em;
+    line-height: 2em;
+    width: 890px;
+    padding-bottom: 3em;
+
+}
+
+.img02 {
+    background-image: url('../img/background002.jpg');
+    width: 100%;
+    height: 950px;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px black; /* Sobra para dentro */
+
+
+}
+
+.fundo-livro {
+    background: rgba(0, 0, 0, 0.427);
+    width: 44%;
+    height: 780px;
+    position: relative;
+    left: 30px;
+    top: 90px;
+
+}
+
+.paragrafo-04 {
+    font-size: 53px;
+    font-family: var(--fonte3);
+    color: var(--cor-secundaria);
+    line-height: 2em;
+    padding: 0.5em 0px 0.5em 0.1em;
+}
+
+
+.paragrafo-05 {
+    color: var(--cor-primaria);
+    font-family: var(--fonte3);
+    font-size: 53px;
+    padding: 1em 1em 0px 0.5em;
+    line-height: 2em;
+    width: 700px;
+    padding-bottom: 3em;
+}
+
+
+
+@media screen and (max-width:392px) {
+
+    .paragrafo01 {
+        padding-top: 4em;
+        font-size: 35px;
+        width: 392px;
+        margin: 2em;
+
+    }
+
+    .img01 {
+        width: 1030px;
+        background-position: right center;
+        background-size: cover;
+
+    }
+
+    .fundo {
+        margin: 2.3em;
+        height: 500px;
+        background: hsla(0, 0%, 0%, 0.586);
+        position: relative;
+        top: 250px;
+
+
+    }
+
+    .paragrafo-02 {
+        font-size: 34px;
+        padding-top: 0.1em;
+        width: 420px;
+        text-shadow: 2px 2px 3px black;
+
+
+    }
+
+    .paragrafo-03 {
+        font-size: 35px;
+        padding-top: 5em;
+        margin-left: 2em;
+
+    }
+
+    .img02 {
+        width: 1030px;
+        background-size: cover;
+        background-position: left center;
+
+    }
+
+    .fundo-livro {
+
+        margin: 2.3em;
+        height: 550px;
+        background: hsla(0, 0%, 0%, 0.493);
+        position: relative;
+        top: 200px;
+
+
+    }
+
+    .paragrafo-04 {
+        font-size: 36px;
+        text-shadow: 2px 2px 3px black;
+        padding-left: 0.5em;
+
+    }
+
+
+    .paragrafo-05 {
+        font-size: 36px;
+        width: 480px;
+        padding: 5em 0em 5em 2.5em;
+    }
+
+
+
+
+
+}

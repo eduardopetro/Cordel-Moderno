@@ -1,0 +1,50 @@
+.container-cabeçalho {
+    background: black;
+    height: 220px;
+    color: var(--cor-secundaria);
+    text-align: center;
+    padding-top: 4em;
+
+
+}
+
+.titulo {
+    font-size: 152px;
+    font-display: 128px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+
+}
+
+.link {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-family: var(--fonte1);
+    font-size: 1.1em;
+    font-style: bold;
+
+}
+
+
+@media screen and (max-width:392px) {
+
+    .container-cabeçalho {
+        width: 1030px;
+        height: 310px;
+    
+    }
+
+    .titulo {
+        font-size: 99px;
+        text-align: center;
+        padding-top: 0.5em;
+
+    }
+
+    .link {
+        font-size: 40px;
+
+    }
+
+}

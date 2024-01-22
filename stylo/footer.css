@@ -1,0 +1,42 @@
+.container-footer {
+    background: var(--cor-primaria);
+    text-align: center;
+    height: 30px;
+    padding-top: 0.7em;
+}
+
+
+
+.rodape {
+    color: var(--cor-secundaria);
+    font-size: 18px;
+    font-family: var(--fonte1);
+}
+
+.link-rodape {
+    font-family: var(--fonte1);
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+
+}
+@media screen and (max-width:392px) {
+
+    .container-footer {
+        margin-top: 5em;
+        width: 1030px;
+        height: 130px;
+
+    }
+
+    .rodape {
+        font-size: 40px;
+        padding-top: 0.5em;
+
+
+    }
+
+}
+
+
+    
